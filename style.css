@@ -52,3 +52,9 @@ body{
     width: 40%;
     margin: auto;
    }
+   .about{
+    text-align: start;
+   }
+   .me-smile{
+    border-radius: 50%;
+   }
