@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: 'Nova Square', sans-serif;
+    background-color: rgba(245, 245, 245, 0.842);
+}
+.gradient-background {
+    background: linear-gradient(300deg, #96EFFF, #0dcaf0, #0dcaf0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding: 0;
+    margin: 0;
+  
+    }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    }
+
+    .text-body-emphasis{
+        font-family: 'DM Serif Display', serif;
+        font-weight: 550;
+    }
+    .text-body-secondary{
+        font-family: 'DM Serif Display', serif;
+        font-weight: 400;
+    }
+    .hero {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+    .letter {
+        font-size: larger;
+        color: whitesmoke;
+        font-weight: 700;
+    }
+    .display-4{
+        font-family: 'Sacramento', cursive;
+        font-size: 4rem;
+    }
+    .lead{
+        font-family: 'PT Serif', serif;    
+    }
+   .intro{
+    width: 40%;
+    margin: auto;
+   }

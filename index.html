@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <section class="navbar-top">
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="info">
+        <div class="bg-dark p-4 gradient-background">
+          <a href="https://www.linkedin.com/in/ahmet-d-a11b8853/"> <h5 class="text-body-emphasis h4"> Ahmet Demiroğlu</h5></a>
+          <span class="text-body-secondary">Real Estate Appraiser</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-info">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>  
+  </section>
+  <section class="hero gradient-background"> 
+    <div class="container">
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis"> I'm Ahmet Demiroğlu </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"> a CMB Licensed Real Estate Appraiser </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a target="_blank" href="./assets/images/CV - Ahmet DEMİROĞLU.pdf"><button type="button" class="btn btn-primary btn-md px-4 me-sm-3"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 15 20">
+              <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/> <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
+              </svg> <span class="letter">C</span>urriculum <span class="letter">V</span>itae</button></a>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./assets/images/How-to-Perform-a-Real-Estate-Market-Analysis-in-2021-Use-These-3-Tools-1170x780.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="information">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img class="img rounded-circle" width="140" height="140" src="./assets/images/Amerika 5x5++++.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          <h2 class="fw-normal my-3 px-5">Hello,</h2>
+          <p class="intro">I am a real estate appraiser with 9 years of experience. But now it's time to set sail on a new adventure...</p>
+          <a target="_blank" href="./public/about.html"> <button type="button" class="btn btn-outline-info mt-3"> About Me </button> </a> 
+        </div>
+      </div>
+  </section>
+
+  <section id="skills">
+    <div class="container my-5">
+      <h2> Places I've Worked </h2>
+    <div class="row my-3">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static gradient-background">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">Ankara, İzmir</strong>
+            <h3 class="mb-0">Form Gayrimenkul</h3>
+            <div class="mb-1 text-body-secondary">2014 - 2017 </div>
+            <p class="card-text mb-auto"> Preparation and control of more than 2000 appraisal reports during working time within the company.</p>
+            <a target="_blank" href="https://formgd.com.tr/" class="icon-link gap-1 icon-link-hover stretched-link">
+              Check out the company.
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img mt-3 px-1" width="180" height="200" src="./assets/images/logo form.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static gradient-background">
+            <strong class="d-inline-block mb-2 text-success-emphasis">İzmir</strong>
+            <h3 class="mb-0">Mülk Kurumsal</h3>
+            <div class="mb-1 text-body-secondary">2017 - 2023</div>
+            <p class="mb-auto"> Control of almost 9000 appraisal reports during the working time within the company. </p>
+            <a target="_blank" href="https://www.mulkgd.com/index.html" class="icon-link gap-1 icon-link-hover stretched-link">
+              Check out the company.
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img mt-3 px-1" width="175" height="200" src="./assets/images/logo mulk.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> 
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="footer gradient-background">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Demiroğlu, Ahmet</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://api.whatsapp.com/send?phone=905557137064"><svg class="bi" width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg></a></li>
+          <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://twitter.com/a__demiroglu"><svg class="bi" width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/></svg></a></li>
+          <li class="ms-3"><a target="_blank" class="text-body-secondary" href="mailto:ahmetdemiroglu89@gmail.com"><svg class="bi" width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg></a></li>
+          <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://www.linkedin.com/in/ahmet-d-a11b8853/"><svg class="bi" width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
