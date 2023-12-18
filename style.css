@@ -58,3 +58,50 @@ body{
    .me-smile{
     border-radius: 50%;
    }
+   .form-mulk{
+    transition: 0.6s;
+   }
+   .form-mulk:hover{
+    scale: 1.05;
+   }
+   .navBaslik{
+    text-decoration: none;
+    transition: 0.6s;
+   }
+   .navBaslik:hover{
+    scale: 1.1;
+   }
+   .logolar li:hover{
+    scale: 1.20;
+   }
+   .spinning-image:hover{
+    animation: spin 2000ms 1 linear;
+   }
+   @keyframes spin{ 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+  }
+  .span{
+    animation: fade 2.5s infinite;
+  }
+  @keyframes fade{ 
+    0% {opacity: 1;} 
+    25% {opacity: 1;} 
+    50% {opacity: 0;}
+    75% {opacity: 1;} 
+    100% {opacity: 1;}
+    }
+    ::-webkit-scrollbar{
+      background-color: #0dcaf0;
+    }
+    ::-webkit-scrollbar-thumb{
+      background-color: #0d6efd;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+      background-color: #0a60e0;
+      cursor: pointer;
+    }
